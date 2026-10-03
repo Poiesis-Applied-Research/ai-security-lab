@@ -31,3 +31,7 @@ Design decisions and implementation details will be added as the lab develops.
 ### Technologies Under Consideration
 
 - **Adversarial Mock API (Flask)** — A controlled internal API capable of returning normal or adversarial tool responses. This will allow the lab to test prompt injection, tool-response manipulation, and whether AI/MCP security controls behave as expected.
+
+## Security Note
+
+Secrets, credentials, local environment files, telemetry, packet captures, and VM artifacts should not be committed to this repository.

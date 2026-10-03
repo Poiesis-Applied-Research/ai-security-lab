@@ -1,0 +1,124 @@
+# =========================
+# Secrets / Environment
+# =========================
+
+.env
+.env.*
+*.env
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+
+secrets/
+credentials/
+private/
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Logs / Telemetry
+# =========================
+
+*.log
+logs/
+telemetry/
+captures/
+
+*.pcap
+*.pcapng
+
+# =========================
+# Local Databases / State
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+data/
+state/
+
+# =========================
+# AI / Model Artifacts
+# =========================
+
+models/
+checkpoints/
+*.gguf
+*.safetensors
+*.bin
+
+# =========================
+# VM / Lab Artifacts
+# =========================
+
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.qcow2
+
+vm/
+vms/
+snapshots/
+
+# =========================
+# Terraform
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Do not commit variable files if they may contain secrets
+*.tfvars
+*.tfvars.json
+
+# =========================
+# Docker / Container Local State
+# =========================
+
+docker-data/
+volumes/
+
+# =========================
+# IDE / OS
+# =========================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary Files
+# =========================
+
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
